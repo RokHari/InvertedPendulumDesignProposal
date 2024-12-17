@@ -115,4 +115,4 @@ For the last state it might make sense to have two custom GAMs. One for the swin
 
 Extra IOGAMs could be used in each state to write the motor position and encoder position to a GAMDataSource. This would allow us to visualize the position in a browser using the HttpObjectBrowser and HttpService, without writing any extra code for exposing these values from custom GAMs and DataSource.
 
-We could also use ConversionGAMs to convert between units understandable to the motor and units understandable to the algorithm for balancing the pendulum.
+We could also use ConversionGAMs to convert units. Balancing algorithm would most likely work with different units than motor.
